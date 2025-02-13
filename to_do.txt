@@ -8,3 +8,6 @@ apt update && apt install -y libatk1.0-0 libatk-bridge2.0-0 libcups2 libxkbcommo
 execute the "fix-puppeteer.sh" + Run Cmd :-
 chmod +x fix-puppeteer.sh
 ./fix-puppeteer.sh
+
+include the image file :-
+images/image1.jpg/image2.jpg
