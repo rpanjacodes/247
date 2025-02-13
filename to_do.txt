@@ -1,0 +1,10 @@
+//
+download packages :- 
+npm i youtube-dl-exec puppeteer fs child_process readline dotenv
+
+download puppeteer via shell :-
+apt update && apt install -y libatk1.0-0 libatk-bridge2.0-0 libcups2 libxkbcommon-x11-0 libnss3 libxcomposite1 libxrandr2 libgbm1
+
+execute the "fix-puppeteer.sh" + Run Cmd :-
+chmod +x fix-puppeteer.sh
+./fix-puppeteer.sh
