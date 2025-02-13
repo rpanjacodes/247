@@ -4,15 +4,15 @@ const { exec } = require("child_process");
 
 const ytdl = require("youtube-dl-exec");
 
-const { fetchPlaylist } = require("/home/container/fetchYoutube.js");
+const { fetchPlaylist } = require("fetchYoutube.js");
 
-const { refreshCookies } = require("/home/container/autoRefreshCookies.js");
+const { refreshCookies } = require("autoRefreshCookies.js");
 
 const YOUTUBE_STREAM_KEY = "4jye-x93a-rkad-x7ap-e7fq";
 
-const IMAGE_PATH = "static_image.jpg";
+const IMAGE_PATH = "61+V3igsRlL._AC_UF894,1000_QL80_.jpg";
 
-const FONT_PATH = "/home/container/font.ttf";
+const FONT_PATH = "font.ttf";
 
 let playlist = [];
 
