@@ -1,0 +1,74 @@
+[
+    {
+        "domain": ".youtube.com",
+        "httpOnly": true,
+        "path": "/",
+        "secure": false,
+        "expiration": 0,
+        "name": "SID",
+        "value": "g.a000tQiFVMjXspmnAgYFmL5Nj7LVkTfEL+3ZUAYaeyl4q605_DK1ylu1ncx5q6xx0e3St6_qfAACgYKAWKSARISFQHGX2MiDy1nX-P770CwqFK-cAKIxoVAUF8yKqx7yZbyibrxMQ44yGRZCtv0076"
+    },
+    {
+        "domain": ".youtube.com",
+        "httpOnly": true,
+        "path": "/",
+        "secure": false,
+        "expiration": 0,
+        "name": "HSID",
+        "value": "ATfpvBSJUZEo1HGJu"
+    },
+    {
+        "domain": ".youtube.com",
+        "httpOnly": true,
+        "path": "/",
+        "secure": false,
+        "expiration": 0,
+        "name": "APISID",
+        "value": "Kg1145Fn7gsxlAu3/A-kXYbIFlvhExYIFV"
+    },
+    {
+        "domain": ".youtube.com",
+        "httpOnly": true,
+        "path": "/",
+        "secure": false,
+        "expiration": 0,
+        "name": "SAPISID",
+        "value": "c8yMqHaSgOtsqGHC/AhU_wEZeXQobxhBxl"
+    },
+    {
+        "domain": ".youtube.com",
+        "httpOnly": true,
+        "path": "/",
+        "secure": false,
+        "expiration": 0,
+        "name": "LOGIN_INFO",
+        "value": "AFmmF2swRQIhAPeB_qWeo38FqRJ6R4jLHZep026gE7h34p-4AG3KbByqAiA2F_J14L4X68Jbt8KRON6ZIPB0aGxoFFruJK5Gb1w3fA:QUQ3MjNmdzNOMEQzUzRoSIZSX1dsUk5RMkdiRUJKSTRZVIORIPPQ0FQMXIIZOYwbkkwaUtQRnZmVXloa0tzWG1vQW9Hak40bTZudHJmTnRldmdwYnRWT BOTGIKUmxQNIZsRFQ2djFjVHZoRlJvdWFobnBsSWNnZmtkLVBUUHFmdnirU2xOV1BySjdfQ0pCWjFFbFIPLVM5RENCNDNidHJn"
+    },
+    {
+        "domain": ".youtube.com",
+        "httpOnly": true,
+        "path": "/",
+        "secure": false,
+        "expiration": 0,
+        "name": "Secure-3PSID",
+        "value": "g.a000tQiFVMjXspmnAgYFmL5Nj7LVkTfELt3ZUAYaeyl4q605_DK1FrEnTE9NNKv16Fp-qewv9QACgYKAUISARISFQHGX2MICC2vXNYBHLGV0pOkn8kwAhoVALJF8yKoRukiiBGHYTLz.JpeBwBzm10076"
+    },
+    {
+        "domain": ".youtube.com",
+        "httpOnly": true,
+        "path": "/",
+        "secure": false,
+        "expiration": 0,
+        "name": "Secure-3PAPISID",
+        "value": "c8yMqHaSgOtsqGHC/AhU_wEZeXQobxhBxl"
+    },
+    {
+        "domain": ".youtube.com",
+        "httpOnly": true,
+        "path": "/",
+        "secure": false,
+        "expiration": 0,
+        "name": "Secure-3PSIDCC",
+        "value": "AKEYXZURKMwN7Kmi2jj44E71uAQtestP-zUydGPm46GbvbF5Y5JdrEFn9jgPhTxnyHhcjZfo7Q"
+    }
+]
