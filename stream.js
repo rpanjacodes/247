@@ -45,7 +45,9 @@ async function stream() {
         const ffmpegCmd = `
             ffmpeg -re -i "$(youtube-dl-exec -f bestaudio ${songUrl} -o -)" \
             -loop 1 -i ${imagePath} \
-            -vf "drawtext=text='Now Playing: ${songUrl}':fontfile=${FONT_PATH}:fontsize=24:fontcolor=white:x=10:y=10" \
+            -vf "drawtext=text='Now Playing: ${songUrl}':fontfile=${FONT_PATH}:fontsize=24:fontcolor=white:x=10:y=10, \
+                  drawtext=text='Subscribers: 100K':fontfile=${FONT_PATH}:fontsize=24:fontcolor=white:x=w-text_w-20:y=h-text_h-20, \
+                  drawtext=text='Donations Appear Here':fontfile=${FONT_PATH}:fontsize=20:fontcolor=white:x=10:y=h-50:box=1:boxcolor=black@0.5" \
             -c:v libx264 -preset ultrafast -tune stillimage -c:a aac -b:a 128k \
             -f flv rtmp://a.rtmp.youtube.com/live2/${YOUTUBE_STREAM_KEY}
         `;
@@ -61,3 +63,4 @@ async function stream() {
 }
 
 stream();
+
